@@ -1,0 +1,26 @@
+.todo{
+    width: 50%;
+    margin: 0 auto;
+}
+.todo__content{
+    display: flex;
+    gap: 10px;
+}
+.todo__content .main__content{
+    flex-basis: 80%;
+}
+.todo__content .date{
+    flex-basis: 20%;
+    text-align: left;
+}
+.todo__action{
+    justify-content: right;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .todo{
+        width: 95%;
+    }
+}

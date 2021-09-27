@@ -1,0 +1,28 @@
+.search__bar button{
+    height: 48px;
+    width: 100px;
+}
+.todo__input{
+    width: 30%;
+}
+
+.todo__list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .todo__input{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .search__bar button{
+        width: 80%;
+        margin-top: 5px;
+    }
+}
