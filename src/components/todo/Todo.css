@@ -10,8 +10,12 @@
     flex-basis: 80%;
 }
 .todo__content .date{
+    color: green;
     flex-basis: 20%;
     text-align: left;
+}
+.date p{
+    font-size: 12px;
 }
 .todo__action{
     justify-content: right;

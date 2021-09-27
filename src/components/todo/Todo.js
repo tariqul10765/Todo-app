@@ -1,10 +1,8 @@
-import { Button, Card, CardActions, CardContent, DialogContent, DialogContentText, DialogTitle, TextField, Typography } from '@mui/material';
-import React, { useState } from 'react';
-import Dialog from '../update-dialog/Dialog';
+import { Button, Card, CardActions, CardContent, Typography } from '@mui/material';
+import React from 'react';
 import './Todo.css';
 
 const Todo = (props) => {
-    console.log(props);
     const {text,date, isComplete} = props.todo;
 
     const todoCompletedStyle = {
